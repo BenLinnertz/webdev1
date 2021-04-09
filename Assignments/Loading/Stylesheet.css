@@ -1,0 +1,22 @@
+
+  .d1
+  {background:lightskyblue}
+  .d2
+  {background:LightSalmon;}
+  
+
+  .container {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+grid-template-columns: 500px 500px;
+}
+.title{
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+}

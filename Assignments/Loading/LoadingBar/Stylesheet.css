@@ -1,0 +1,50 @@
+
+ 
+#bar {
+  width: 20;
+  height: 10px;
+  margin: 100px auto;
+  position: relative;
+  background: linear-gradient(
+      35deg,
+      red,
+      yellow,
+      green 
+    );
+  animation-name: bounce;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes bounce{
+  0%{
+    background: black;
+  }
+
+  33% {
+    top: 0px;
+    background: linear-gradient(
+      35deg,
+      red,
+      black
+    );
+  }
+  60% {
+    
+    background: linear-gradient(
+      35deg,
+      red,
+      yellow,
+      black
+    );
+  }
+
+  100% {
+    background: linear-gradient(
+      35deg,
+      red,
+      yellow,
+      green 
+    );
+  }
+}

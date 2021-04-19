@@ -1,0 +1,66 @@
+  
+.item-1{
+  background:LightSkyBlue;
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/0/05/Destiny_2_%28artwork%29.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+}
+.item-2{background:LightSalmon;
+  background-image: url(https://static.wikia.nocookie.net/destinypedia/images/2/29/CurseofOsirisTitle.jpg/revision/latest/scale-to-width-down/1000?cb=20171214182706);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+}
+.item-3{background:PaleTurquoise;
+  background-image: url(https://destiny.wiki.gallery/images/e/e7/Warmind_Poster.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+}
+.item-4{background:LightPink;
+  background-image: url(https://static.wikia.nocookie.net/destinypedia/images/c/cc/D2-Forsaken.jpg/revision/latest/scale-to-width-down/640?cb=20180607181735);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+}
+.item-5 {background: PaleGreen;
+  background-image: url(https://static.wikia.nocookie.net/destinypedia/images/2/21/Destiny_2_Shadowkeep_Cover.png/revision/latest/scale-to-width-down/350?cb=20190619231240);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;}
+
+.item-6{background:LightSkyBlue;
+  background-image: url(https://static.wikia.nocookie.net/destinypedia/images/7/77/Destiny2BeyondLight_DLC_Art.jpg/revision/latest?cb=20200610001549);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+}
+.container {
+  font-size: 40px;
+  min-height: 1000px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: center;
+  grid-template-rows: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="item-"] {
+    width: 100%;
+  }
+}
+

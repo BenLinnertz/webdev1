@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://image.api.playstation.com/vulcan/img/rnd/202010/1618/0PRx6kuqW0qRZmGhDV3tzEj3.png?w=940&thumb=false);
+    background-size: auto;
+    background-size: cover;
+}
+.wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex: 1;
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:10px;
+}
+
+.button-1{
+    margin-top: 125px;
+    padding-top: 50px;
+    min-height: 200px;
+    min-width: 200px;
+    background-image: url(https://pcgamingsite.com/wp-content/uploads/2015/11/Rise-of-the-Tomb-Raider-ico.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.video{
+    min-height: 100px;
+    min-width: 100px;
+}
+.logo{
+    margin-top: 500px;
+    margin-left: 80px;
+    min-height: 250px;
+    min-width: 1050px;
+    background-image: url( https://upload.wikimedia.org/wikipedia/commons/b/bd/Rise_of_the_Tomb_Raider_logo.png)
+}

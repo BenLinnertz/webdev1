@@ -1,4 +1,6 @@
-
+body{
+  background-image: url(https://wallpaperaccess.com/full/1567666.png);
+}
 .wrapper
 {
   display:flex;
@@ -9,16 +11,16 @@
 .page
 {
   display: flex;
-  flex-direction: column;
-  justify-content: start;
-  background: coral;
+  flex-direction: row;
+  justify-content: center;
   flex: 1;
+  justify-items: center;
 
 }
 .navigation
 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   padding:10px;
@@ -31,8 +33,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.app-1
+.app
 {
+color:lightcoral; 
 min-height: 100px;
 min-width: 100px;
 background-size: cover;
@@ -40,41 +43,24 @@ background-repeat: no-repeat;
 background-position: center;
 
 
-}
-.app-2
-{
-min-height: 100px;
-  min-width: 100px;
-  background-size: cover;
-  background-repeat: no-repeat;
 
 }
-.app-3
-{
-min-height: 100px;
-  min-width: 100px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.navigation-2{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding:10px;
-}
-.app-4
-{
-min-height: 100px;
-  min-width: 100px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 h1{
+    color:white;
     text-align: center;
     margin: auto;
     width: 50%;
-    border: 3px solid red;
+    border: 3px solid lightgreen;
     padding: 10px;
     flex: 1;
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  background-image: url(https://i.pinimg.com/originals/46/2f/81/462f81e8853caae8e0fec851ea9e359e.gif);
+  min-height: 500px;
+  min-width: 500px;
+  background-repeat: no-repeat;
 }

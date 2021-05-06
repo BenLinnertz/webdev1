@@ -1,0 +1,43 @@
+body{
+    background-image: url(../source/titanbackground.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.back{
+    background-image: url(https://www.pngkey.com/png/full/87-875502_back-button-arrow-sign.png);
+    min-height: 30px;
+    min-width: 10px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.column-1
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    padding:10px;
+}
+    
+.ability
+{   
+    display:flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.image{
+    min-height: 75px;
+    min-width: 75px;
+
+}
+.content{
+    text-align: justify;
+    color: white;
+    max-width: 450px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

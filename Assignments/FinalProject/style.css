@@ -1,0 +1,65 @@
+body{
+    background-image: url(https://images3.alphacoders.com/841/thumb-1920-841918.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.back{
+    background-image: url(https://www.pngkey.com/png/full/87-875502_back-button-arrow-sign.png);
+    min-height: 30px;
+    min-width: 10px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+}
+.row{
+    margin-top: 7%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:10px;
+}
+.title{
+    min-height: 500px;
+    min-width: 500px;
+    background-image:url(https://logos-world.net/wp-content/uploads/2020/06/Destiny-Logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.button{
+    max-height: 200px;
+    max-width: 200px;
+    margin-left: 44%;
+    margin-top: 5%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+    
+.spin:hover{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    33% {transform: rotate(120deg);}
+    66% {transform: rotate(240deg);}
+    100% {transform: rotate(360deg);}
+}
+p{
+    text-align:center ;
+    color: #251d1e;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

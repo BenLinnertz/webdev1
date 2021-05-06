@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://images3.alphacoders.com/841/thumb-1920-841918.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.back{
+    background-image: url(https://www.pngkey.com/png/full/87-875502_back-button-arrow-sign.png);
+    min-height: 30px;
+    min-width: 10px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+}
+.row{
+    margin-top: 7%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:10px;
+}
+.hunter{
+    background-image: url(https://www.seekpng.com/png/full/44-442911_destiny-destiny-2-hunter-png.png);
+    min-height: 450px;
+    min-width:450px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.warlock{
+    background-image: url(https://ras117mike.github.io/Destiny2/images/icons/warlock.webp);
+    min-height: 450px;
+    min-width:450px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.titan{
+    background-image: url(https://www.sideshow.com/storage/product-images/902520/titan_destiny_silo.png);
+    min-height: 450px;
+    min-width: 450px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-top: 5%;
+    font-size: 50px;
+    color: #251d1e;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+    
+.spin:hover{
+    background-image: url(https://www.seekpng.com/png/full/95-959184_futuristic-circle-png-sci-fi-circle-png.png);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    33% {transform: rotate(120deg);}
+    66% {transform: rotate(240deg);}
+    100% {transform: rotate(360deg);}
+}

@@ -20,3 +20,30 @@ grid-template-columns: 500px 500px;
   font-size: 40px;
   width: 100%;
 }
+.back{
+  background: black;
+  min-height: 100px;
+  min-width: 100px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 20px;
+}
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: lightseagreen;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
